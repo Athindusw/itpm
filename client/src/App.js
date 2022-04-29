@@ -3,7 +3,8 @@ import {BrowserRouter,Route} from 'react-router-dom';
 import Home from './components/Home';
 import CreatePost from './components/CreatePost';
 import EditPost from './components/EditPost';
-import PostDetails from './components/PostDetails';
+
+import PostDetails from './components/PostDetails'; 
 import NavBar from './components/NavBar';
 
 export default class App extends Component{
