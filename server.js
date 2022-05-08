@@ -5,8 +5,6 @@ const cors = require('cors');
 
 const app = express();
 
-
-
 //import routes
 const postRoutes = require('./routes/posts');
 

@@ -16,21 +16,22 @@ export default class NavBar extends Component{
     </button>
 
 
+    <div class="collapse navbar-collapse" id="navbarNav" >
+      <ul class="navbar-nav" >
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="/"><b><h4>Users      </h4></b></a>
+        </li>
+      </ul>
+    </div>
+
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="/"><b><h4>Users</h4></b></a>
+          <a class="nav-link" aria-current="page" href="/"><b><h4>Login</h4></b></a>
         </li>
       </ul>
-
-
-      {/* <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> */}
-
-
     </div>
+
   </div>
 </nav>
      

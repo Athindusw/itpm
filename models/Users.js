@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+import { Schema, model } from 'mongoose';
 
-const postSchema = new mongoose.Schema({
-
+// Create Schema
+const UserSchema = new Schema({
     userid:{
         type:String,
         required:true
@@ -15,6 +15,7 @@ const postSchema = new mongoose.Schema({
     uemail:{
         type:String, 
         required:true
+        
     },
     uphone:{
         type:String, 
@@ -23,9 +24,14 @@ const postSchema = new mongoose.Schema({
     unic:{
         type:String, 
         required:true
+    },
+    upw:{
+        type:String, 
+        required:true
     }
    
-
 });
 
-module.exports  = posts = mongoose.model('Posts',postSchema); 
+const User = model('user', UserSchema);
+
+export default User;
